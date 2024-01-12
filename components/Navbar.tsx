@@ -4,7 +4,9 @@ import React from "react";
 
 const Navbar = () => {
     return (
+
         <div className="fixed top-0 z-[40] w-full h-[100px] bg-transparent flex justify-between items-center px-10 md:px-20">
+
             <div className="flex flex-row gap-3 items-center">
                 <div className="relative">
                     {/* <Image
@@ -15,7 +17,7 @@ const Navbar = () => {
             className="w-full h-full object-contain rounded-full"
           /> */}
                 </div>
-                <h1 className="text-white text-[32px] font-semibold">
+                <h1 className="text-white text-[20px] sm:text-[28px] md:text-[32px] font-semibold">
                     Ryan{" "}
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
                         {" "}
